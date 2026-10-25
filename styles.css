@@ -219,6 +219,8 @@ h3 {
   font-size: 19px;
   color: var(--muted);
   margin: 20px 0 0;
+  text-align: justify;
+  hyphens: auto;
 }
 
 .button {
@@ -286,6 +288,16 @@ h3 {
   font-size: 18px;
 }
 
+.section-heading p {
+  text-align: justify;
+  hyphens: auto;
+}
+
+.reference-intro {
+  text-align: justify;
+  hyphens: auto;
+}
+
 .section-heading.compact {
   margin-bottom: 32px;
 }
@@ -351,6 +363,8 @@ h3 {
 .article-copy p {
   font-size: 16px;
   line-height: 1.65;
+  text-align: justify;
+  hyphens: auto;
 }
 
 .citation-link {
@@ -389,6 +403,12 @@ h3 {
 .longform p,
 .longform li {
   font-size: 18px;
+}
+
+.longform > p,
+.longform > ol > li {
+  text-align: justify;
+  hyphens: auto;
 }
 
 .longform ol {
